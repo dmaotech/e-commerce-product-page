@@ -4,11 +4,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://dmaotech-Ecommerce-product.netlify.app" color="white">
+    <a href="https://dmaotech-ecommerce-product.netlify.app" color="white">
       Live
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/url-shortener-with-shrtcode-api-fJHZplX8q3">
+    <a href="https://www.frontendmentor.io/solutions/ecommerce-product-page-challenge-ES-YLnCTnN">
       Solution
     </a>
    <span> | </span>
@@ -57,5 +57,5 @@ The main challenge is to build out this E-commerce product page and get it looki
 ## Social
 
 - Website - [Soon](Soon)
-- Frontend Mentor - [@dmaotech](dmaotech)
+- Frontend Mentor - [@dmaotech](https://www.frontendmentor.io/profile/dmaotech)
 - Twitter - [Soon](Soon)
