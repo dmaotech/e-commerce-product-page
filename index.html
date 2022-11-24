@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="A online E-commerce sneakers shop made by dmaotech">
+  <meta name="keywords" content="sneakers, shoes, E-commerce, online, shop, style, product">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+  <span class="dark-background"></span>
+
+  <header class="header">
+    <div class="header__primary-content">
+      <img class="menu-icon" src="./images/icon-menu.svg" alt="">
+      <a href="#" class="logo" aria-label="header logo button to main section"><img src="./images/logo.svg" aria-hidden="true"></a>
+    </div>
+
+    <div class="header__list--container">
+      <ul class="header__menu--list">
+        <li class="header__menu--item"><a href="#">Collections</a></li>
+        <li class="header__menu--item"><a href="#">Men</a></li>
+        <li class="header__menu--item"><a href="#">Women</a></li>
+        <li class="header__menu--item"><a href="#">About</a></li>
+        <li class="header__menu--item"><a href="#">Contact</a></li>
+      </ul>
+  
+      <ul class="header__secondary--list">
+        <li class="header__cart-icon"><span class="cart-icon--quantity empty"></span><img src="./images/icon-cart.svg" alt=""></li>
+        <li class="header__profile"><img src="./images/image-avatar.png" alt=""></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="main__container">
+    <div class="cart">
+      <header class="cart-header">
+        <p class="cart-header--title">Cart</p>
+      </header>
+
+      <section class="cart-content empty">
+        <div class="cart__btn--container">
+          <a href="#" class="cart__btn" type="button" aria-label="proceed to checkout section">Checkout</a>
+        </div>
+        <p class="cart__empty--text">Your cart is empty.</p>
+      </section>
+    </div>
+
+    <section class="slider">
+      <button class="slider-btn--container previous" type="button" aria-label="button to previous image on focus section">
+        <img class="slider-btn previous" src="./images/icon-previous.svg" alt="">
+      </button>
+
+      <div class="slider__img--container">
+        <img class="slider__img" src="./images/image-product-1.jpg" alt="">
+      </div>
+
+      <button class="slider-btn--container next" type="button" aria-label="button to next image on focus section">
+        <img class="slider-btn next" src="./images/icon-next.svg" alt="">
+      </button>
+
+      <div class="slider__selector--container">
+        <button class="slider__selector--img" type="button" aria-label="button for select product image"><img value="1" src="./images/image-product-1-thumbnail.jpg" alt=""></button>
+        <button class="slider__selector--img" type="button" aria-label="button for select product image"><img value="2" src="./images/image-product-2-thumbnail.jpg" alt=""></button>
+        <button class="slider__selector--img" type="button" aria-label="button for select product image"><img value="3" src="./images/image-product-3-thumbnail.jpg" alt=""></button>
+        <button class="slider__selector--img" type="button" aria-label="button for select product image"><img value="4" src="./images/image-product-4-thumbnail.jpg" alt=""></button>  
+      </div>
+    </section>
+
+    <section class="slider-focus">
+      <button class="close-icon" type="button" aria-label="close focus section">
+        <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg"><path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill-rule="evenodd"/></svg>
+      </button>
+
+      <button class="slider-btn--container previous focus-previous" type="button" aria-label="button to previous image on focus section">
+        <svg class="slider-btn focus-previous--img" width="13" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 1 3 9l8 8" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+      </button>
+
+      <div class="slider__img--container slider__focus--img">
+        <img src="./images/image-product-1.jpg" alt="">
+      </div>
+
+      <button class="slider-btn--container focus-next" type="button" aria-label="button to next image on focus section">
+        <svg class="slider-btn focus-next--img" width="13" height="18" xmlns="http://www.w3.org/2000/svg"><path d="m2 1 8 8-8 8" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+      </button>
+
+      <div class="slider__selector--container">
+        <button class="slider__selector--focus-img" type="button" aria-label="button for select product image on focus section"><img focus-value="1" src="./images/image-product-1-thumbnail.jpg" alt=""></button>
+        <button class="slider__selector--focus-img" type="button" aria-label="button for select product image on focus section"><img focus-value="2" src="./images/image-product-2-thumbnail.jpg" alt=""></button>
+        <button class="slider__selector--focus-img" type="button" aria-label="button for select product image on focus section"><img focus-value="3" src="./images/image-product-3-thumbnail.jpg" alt=""></button>
+        <button class="slider__selector--focus-img" type="button" aria-label="button for select product image on focus section"><img focus-value="4" src="./images/image-product-4-thumbnail.jpg" alt=""></button>  
+      </div>
+    </section>
+
+    <section class="product-content">
+      <article class="product-content--info">
+        <div class="product__info--text">
+          <p class="product__info--brand">Sneaker Company</p>
+          <h2 class="product__info--title">Fall Limited Edition Sneakers</h2>
+          <p class="product__info--description">
+            These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+        </div>
+
+        <div class="info__pricing">
+          <span class="info__pricing--price">$125.00</span>
+          <span class="info__pricing--discount">50%</span>
+          <span class="info__pricing--before"><strike>$250.00</strike></span>
+        </div>
+      </article>
+
+      <div class="product-content__order">
+        <div class="order__quantity">
+          <input class="order__quantity--input" type="number" value="0" name="quantity">
+          <button class="order__quantity--btn minus" type="button" aria-label="button for remove quantity product"><img src="./images/icon-minus.svg" alt=""></button>
+          <button class="order__quantity--btn plus" type="button" aria-label="button for add quantity product"><img src="./images/icon-plus.svg" alt=""></button>
+        </div>
+
+        <button class="order__cart" type="button"><img class="order__cart--icon" src="./images/icon-cart-white.svg" alt=""> Add to cart</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
